@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Form renders as design 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <fieldset>
+    <label>
+      Search for Movies: 
+      <input
+        name="search"
+        onChange={[Function]}
+        placeholder="enter movie search"
+        value=""
+      />
+    </label>
+    <label>
+       
+      <button>
+        Search
+      </button>
+    </label>
+  </fieldset>
+</form>
+`;
