@@ -38,7 +38,10 @@ export default class SearchForm extends Component {
       >
         <fieldset>
           <label>
-            Search for Movies: <input value={current} onChange={({ target }) => this.setState({ current: target.value })} name="search" placeholder="enter movie search"/>
+            Search for Movies: <input value={current} 
+              onChange={({ target }) => this.setState({ current: target.value })}  
+              name="search" 
+              placeholder="enter movie search"/>
           </label>
           <label>
             &nbsp;<button>Search</button>
