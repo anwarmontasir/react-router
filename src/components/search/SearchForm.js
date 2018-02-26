@@ -27,7 +27,7 @@ export default class SearchForm extends Component {
     const { current } = this.state;
     if(!current) return;
     this.props.onSearch(current);
-  }
+  };
 
   render() {
     const { current } = this.state;
