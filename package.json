@@ -2,7 +2,7 @@
   "name": "react-router",
   "version": "1.0.0",
   "description": "another React JS practice",
-  "main": "postcss.config.js",
+  "main": "webpack.config.js",
   "scripts": {
     "lint": "eslint src",
     "prebuild": "npm run lint",
