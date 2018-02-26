@@ -34,6 +34,6 @@ export default class MovieDetail extends Component {
         <a href="" onClick={this.handleBack}>Back</a>
         <pre>{JSON.stringify(movie, true, 2)}</pre>
       </div>
-    )
+    );
   }
 }
